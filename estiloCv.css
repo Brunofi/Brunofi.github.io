@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+article{
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    line-height: 10px;
+}
+
+body{
+    background-color: rgba(92, 89, 89, 0.849);
+    color: black;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#dadosContato{
+    font-size: 1.25em;
+}
+
+#dadosContato a,
+#dadosContato a:visited{
+    color:blue;
+}
+
+#dadosContato > div{
+    width: 100%;
+
+}
+
+#dadosContato > div > img {
+    width: 40%;
+}
+
+#dadosContato > h1 {
+    margin-top: 5px;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secaoDados{
+    background:  rgba(187, 176, 176, 0.39) ;
+    padding: 20px 20px;
+    transition: all 1s ease-in-out;
+}
+
+.secaoDados:hover {
+    background: rgb(65, 60, 60);
+    background: linear-gradient(0deg, rgb(59, 55, 55) 0%, rgb(110, 111, 117) 50%, rgb(140, 145, 146) 100%);
+    color: rgb(240, 232, 232);
+}
+
+.secaoDados > h2 {
+    color: rgb(247, 245, 245);
+    transition: all 1s ease-in-out;
+}
+
+.secaoDados:hover > h2 {
+    color: #000;
+}
+
+.secaoDados > ul {
+    list-style: none;
+}
+
+#linhaPrincipal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+#colunaEsquerda {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 50px;
+}
+
+#colunaDireita {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    gap: 50px;
+}
+
+#sobreMim > h2{
+    text-align: center;
+}
+
+#sobreMim {
+    margin-top: 50px;
+    width: 100%;
+    text-align: justify;
+    
+}
+
+#sobreMim > div{
+    line-height: normal;
+    
+}
+
+#idiomas > table {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#idiomas > table > tbody > tr:nth-child(2n+1) {
+    background-color: #888;
+}
+
+#idiomas > table > tbody > tr:nth-child(2n) {
+    background-color: #bbb;
+}
+
+#idiomas > table > tbody td {
+    text-align: center;
+}
+
+
+
+
+
+ 
+   
+ 
